@@ -41,8 +41,7 @@ const Achievements = () => {
         ))}
       </ul>
 
-      {/* Divider */}
-      <hr className="mt-10 border-t border-gray-300" />
+      
     </section>
   );
 };

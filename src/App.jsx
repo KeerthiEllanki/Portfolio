@@ -1,26 +1,30 @@
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Achievements from "./components/Achievements";
+
+import About from "./pages/About";
+import Education from "./pages/Education";
+import Experience from "./pages/Experience";
+
+import Skills from "./pages/Skills";
+
+import Achievements from "./pages/Achievements";
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900">
+    <div className=" min-w-screen min-h-screen bg-gray-100 text-gray-900">
       <Navbar />
-      <main className="w-full mx-auto py-10 px-6">
-        <About />
-        <Education />
-        <Experience/>
-        <Skills/>
-        <Achievements />
-        {/* <Experience />
-        <Projects />
-        <Skills />
-        <Volunteer />
-        
-        <Contact /> */}
+      <main className="w-full pt-24 px-6">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
+          <Route path="/skills" element={<Skills />} />
+          {/* <Route path="/volunteer" element={<Volunteer />} /> */}
+          <Route path="/achievements" element={<Achievements />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
       </main>
     </div>
   );

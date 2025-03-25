@@ -1,6 +1,18 @@
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+  const navItems = [
+    { name: "About", path: "/" },
+    { name: "Education", path: "/education" },
+    { name: "Experience", path: "/experience" },
+    // { name: "Projects", path: "/projects" },
+    { name: "Skills", path: "/skills" },
+    // { name: "Volunteer", path: "/volunteer" },
+    { name: "Achievements", path: "/achievements" },
+   
+  ];
+
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="w-full mx-auto px-6 py-4 flex justify-between items-center">
@@ -9,24 +21,13 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="flex space-x-6">
-          {[
-            "About",
-            "Education",
-            "Experience",
-            "Projects",
-            "Skills",
-            "Volunteer",
-            "Achievements",
-          ].map((section) => (
-            <li key={section}>
+        {navItems.map((item) => (
+            <li key={item.name}>
               <Link
-                to={section.toLowerCase()}
-                smooth={true}
-                duration={500}
-                offset={-80}
-                className="cursor-pointer text-black hover:text-sky-950 transition-colors duration-300"
+                to={item.path}
+                className="text-black hover:text-blue-400 transition-colors"
               >
-                {section}
+                {item.name}
               </Link>
             </li>
           ))}

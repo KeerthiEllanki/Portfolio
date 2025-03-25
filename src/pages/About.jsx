@@ -4,7 +4,7 @@ import Headshot from "../assets/images/headshot.png";
 
 const About = () => {
   return (
-    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between mb-10 pt-46 px-10 pb-10">
+    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between mb-10 pt-28 px-10 pb-10">
       {/* Left Side - Text Content */}
       <div className="md:w-2/3 text-left">
         <h2 className="text-3xl font-bold text-sky-900">I'm an End-to-End Developer</h2>
@@ -36,10 +36,10 @@ const About = () => {
 
           {/* LinkedIn Button */}
           <a
-            href="https://www.linkedin.com/in/keerthi-reddy-ellanki" // Replace with actual LinkedIn link
+            href="https://www.linkedin.com/in/keerthi-reddy-ellanki" 
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-16 h-16 px-2 py-2 bg-sky-100 rounded-lg hover:bg-sky-200 transition duration-300 shadow-lg"
+            className="flex items-center justify-center w-16 h-16 p-2 bg-sky-100 rounded-full hover:bg-sky-200 transition duration-300 shadow-lg"
           >
             <FaLinkedin className="w-8 h-8" />
           </a>
@@ -49,24 +49,25 @@ const About = () => {
             href="https://github.com/KeerthiEllanki/" // Replace with actual GitHub link
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-16 h-16 px-2 py-2 bg-sky-100 rounded-lg hover:bg-sky-200 transition duration-300 shadow-lg"
+            className="flex items-center justify-center w-16 h-16 p-2 bg-sky-100 rounded-full hover:bg-sky-200 transition duration-300 shadow-lg"
           >
             <FaGithub className="w-8 h-8" />
           </a>
 
           {/* Email Button */}
           <a
-            href="mailto:keerthireddyellanki303@gmail.com" // Replace with your actual email
-            className="flex items-center justify-center w-16 h-16 px-2 py-2 bg-sky-100 rounded-lg hover:bg-sky-200 transition duration-300 shadow-lg"
+            href="mailto:keerthireddyellanki303@gmail.com" 
+            className="flex items-center justify-center w-16 h-16 p-2 bg-sky-100 rounded-full hover:bg-sky-200 transition duration-300 shadow-lg"
           >
-            <FaEnvelope className="w-8 h-8" />
+            <FaEnvelope className="w-7 h-8" />
           </a>
 
           {/* Resume Button */}
           <a
-            href="/resume.pdf" // Replace with actual resume link
-            download="Keerthi_Reddy_Ellanki_Resume.pdf"
-            className="flex items-center justify-center px-2 py-2 bg-sky-100 text-white font-semibold rounded-lg hover:bg-sky-200 transition duration-300 shadow-lg"
+            href="/KeerthiReddyEllanki_Resume.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center p-2 bg-sky-100 text-white font-semibold rounded-3xl hover:bg-sky-200 transition duration-300 shadow-lg"
           >
             <IoDocumentText className="mr-2 w-8 h-8"/> Resume
           </a>
