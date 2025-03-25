@@ -4,7 +4,7 @@ import Headshot from "../assets/images/headshot.png";
 
 const About = () => {
   return (
-    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between mb-10 pt-28 px-10 pb-10">
+    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between mb-10 pt-20 px-10 pb-10">
       {/* Left Side - Text Content */}
       <div className="md:w-2/3 text-left">
         <h2 className="text-3xl font-bold text-sky-900">I'm an End-to-End Developer</h2>
@@ -64,7 +64,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="/KeerthiReddyEllanki_Resume.pdf" 
+            href="/Portfolio/KeerthiReddyEllanki_Resume.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center p-2 bg-sky-100 text-white font-semibold rounded-3xl hover:bg-sky-200 transition duration-300 shadow-lg"
