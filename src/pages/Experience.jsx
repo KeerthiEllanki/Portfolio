@@ -3,7 +3,7 @@ import { useState } from "react";
 const experiences = [
     {
       company: "BilliMD",
-      role: "Frontend Developer",
+      role: "Software Developer",
       duration: "February 2025 – Present",
       description: "Contributing to the development of a medical credentialing SaaS platform at BilliMD, aimed at streamlining provider onboarding and compliance. Focused on building performant, accessible, and responsive UIs that support scalable credentialing workflows and enhance user experience across the healthcare ecosystem.",
       responsibilities: [
@@ -13,6 +13,20 @@ const experiences = [
         "Built and customized reusable UI components using Material UI, reducing UI development time by 50% and ensuring WCAG-compliant accessibility across 100% of user-facing pages.",
         "Integrated Framer Motion to design smooth UI animations across key user journeys, contributing to a more modern & intuitive user experience.",
         "Partnered with designers via Figma & Storybook to deliver pixel-perfect, responsive UIs, reducing QA cycles and improving cross-team handoff."
+      ],
+    },
+    {
+      company: "Georgia State University",
+      role: "Graduate Teaching Assitant",
+      duration: "August 2023 – Present",
+      description: "Contributed to curriculum innovation through automated grading systems and interactive learning tools that improved student engagement and performance. Played a key role in creating scalable, learner-centered solutions that empowered student success, strengthened peer collaboration, and streamlined instructional processes in a high-enrollment, fast-paced academic setting.",
+      responsibilities: [
+        "Designed and implemented a browser-based code execution platform to automate grading of programming assignments, eliminating the need for local setup and improving grading efficiency for instructors.",
+        "Delivered personalized tutoring and academic support in Data Structures, Algorithms, Python, and Java, helping over 200 students per semester improve understanding and achieve measurable academic gains.",
+        "Created real-world coding exercises using interactive coding environments, integrating automated feedback and gamified learning elements to enhance problem-solving and industry readiness.",
+        "Mentored and onboarded new lab assistants, sharing best practices and technical guidance, which improved instructional delivery and consistency across multiple lab sections.",
+        "Collaborated with faculty to design lab materials and grading rubrics, ensuring alignment with course objectives and enhancing the overall learning experience."
+      
       ],
     },
     {
