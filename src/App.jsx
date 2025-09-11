@@ -16,17 +16,22 @@ function App() {
     <div className=" min-w-screen min-h-screen bg-gray-100 text-gray-900 flex flex-col">
       <Navbar />
       <main className="w-full pt-24 px-6 flex-grow">
-        <Routes>
-          <Route path="" element={<About />} />
+        {/* <Routes> */}
+        {/* <Route path="" element={<About />} />
           <Route path="education" element={<Education />} />
-          <Route path="experience" element={<Experience />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
-          <Route path="skills" element={<Skills />} />
-          {/* <Route path="/volunteer" element={<Volunteer />} /> */}
-          <Route path="achievements" element={<Achievements />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
-          {/* <Route path="*" element={<Navigate to="/" />} /> */}
-        </Routes>
+          <Route path="experience" element={<Experience />} /> */}
+        {/* <Route path="/projects" element={<Projects />} /> */}
+        {/* <Route path="skills" element={<Skills />} /> */}
+        {/* <Route path="/volunteer" element={<Volunteer />} /> */}
+        {/* <Route path="achievements" element={<Achievements />} /> */}
+        {/* <Route path="/contact" element={<Contact />} /> */}
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
+        {/* </Routes> */}
+        <section id="about" className="scroll-mt-24"><About /></section>
+        <section id="experience" className="scroll-mt-24"><Experience /></section>
+        <section id="skills" className="scroll-mt-24"><Skills /></section>
+        <section id="education" className="scroll-mt-24"><Education /></section>
+        <section id="achievements" className="scroll-mt-24"><Achievements /></section>
       </main>
       <Footer />
     </div>

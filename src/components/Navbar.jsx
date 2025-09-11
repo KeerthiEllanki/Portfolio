@@ -1,16 +1,15 @@
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
   const navItems = [
-    { name: "About", path: "/" },
-    { name: "Education", path: "/education" },
-    { name: "Experience", path: "/experience" },
+    { name: "About", path: "#about" },
+    { name: "Experience", path: "#experience" },
     // { name: "Projects", path: "/projects" },
-    { name: "Skills", path: "/skills" },
+    { name: "Skills", path: "#skills" },
+    { name: "Education", path: "#education" },
     // { name: "Volunteer", path: "/volunteer" },
-    { name: "Achievements", path: "/achievements" },
-   
+    { name: "Achievements", path: "#achievements" },
+
   ];
 
   return (
@@ -21,14 +20,14 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className="flex space-x-6">
-        {navItems.map((item) => (
+          {navItems.map((item) => (
             <li key={item.name}>
-              <Link
-                to={item.path}
+              <a
+                href={item.path}
                 className="text-black hover:text-blue-400 transition-colors"
               >
                 {item.name}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>
