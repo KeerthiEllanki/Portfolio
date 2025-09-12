@@ -12,7 +12,7 @@ const achievements = [
     icon: <FaMedal className="text-red-500 text-xl" />,
     text: "Honored with a Central Government’s National Merit Scholarship throughout all four years of undergraduation.",
   },
-  
+
   {
     icon: <FaTrophy className="text-purple-500 text-xl" />,
     text: "Secured top prize in Poster Presentation and Paper Presentation on \"Artificial Intelligence\" & \"Internet of Things\" respectively, in the National Level Tech Fest (Srujanankura).",
@@ -22,7 +22,7 @@ const achievements = [
     text: "Recognized as one of the best student editors of Voice of Vignan (An Independent Student Magazine of Vignan University).",
   },
   {
-    icon: <TbKarate className="text-black-500 text-xl"/>,
+    icon: <TbKarate className="text-black-500 text-xl" />,
     text: "Pursued diploma in Japan Karate Association Of India (Yellow Belt) for the purpose of self-defencing.",
   },
 ];
@@ -41,7 +41,7 @@ const Achievements = () => {
         ))}
       </ul>
 
-      
+
     </section>
   );
 };

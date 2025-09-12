@@ -18,7 +18,7 @@ const Skills = () => {
       <div className="grid md:grid-cols-4 gap-8 text-center">
         {/* Programming Languages */}
         <div className="bg-white shadow-lg p-6 rounded-lg">
-        <h3 className="text-xl font-bold text-sky-900 mb-4">Programming Languages</h3>
+          <h3 className="text-xl font-bold text-sky-900 mb-4">Programming Languages</h3>
           <div className="grid grid-cols-4 gap-4 justify-items-center text-4xl text-amber-600">
             <FaJava title="Java" />
             <FaPython title="Python" />
@@ -37,7 +37,7 @@ const Skills = () => {
             <SiSpringboot title="Spring Boot" />
             <SiReact title="React" />
             <SiAngular title="Angular" />
-           
+
             <SiTailwindcss title="Tailwind CSS" />
           </div>
         </div>
@@ -53,7 +53,7 @@ const Skills = () => {
             <img src={Route53} alt="Route53" title="Route53" className="w-10 h-10 object-contain" />
             <VscAzureDevops title="Azure DevOps" />
             <img src={AzureSQl} alt="AzureSQl" title="AzureSQl" className="w-10 h-10 object-contain" />
-            
+
           </div>
         </div>
 
@@ -66,19 +66,19 @@ const Skills = () => {
             <SiJira title="Jira" />
             <SiDocker title="Docker" />
             <FaGit title="Git" />
-            <SiSplunk title ="Splunk" />
-            <SiFigma title ="Figma" />
+            <SiSplunk title="Splunk" />
+            <SiFigma title="Figma" />
           </div>
         </div>
-    </div>
-        
-        {/* Others */}
-    <div className="mt-8 text-center">
+      </div>
+
+      {/* Others */}
+      <div className="mt-8 text-center">
         <h3 className="text-xl font-bold text-sky-900 mb-4">Other Skills</h3>
         <p className="text-gray-700 text-lg">
-          <span className="mx-2">CI/CD</span> • 
-          <span className="mx-2">REST APIs</span> • 
-          <span className="mx-2">Software Development Life Cycle</span> • 
+          <span className="mx-2">CI/CD</span> •
+          <span className="mx-2">REST APIs</span> •
+          <span className="mx-2">Software Development Life Cycle</span> •
           <span className="mx-2">Object-Oriented Programming</span> •
           <span className="mx-2">HTTP</span> •
           <span className="mx-2">Maven</span> •
@@ -86,13 +86,13 @@ const Skills = () => {
           <span className="mx-2">Atlassian Tool Suite (BitBucket, Bamboo)</span> •
           <span className="mx-2">App Dynamics</span> •
           <span className="mx-2">Spring Tool Suite</span> •
-          <span className="mx-2">Power Automate</span> 
+          <span className="mx-2">Power Automate</span>
         </p>
-    </div>
-    
-   
+      </div>
+
+
     </section>
-    
+
   );
 };
 

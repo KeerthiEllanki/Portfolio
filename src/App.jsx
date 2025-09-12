@@ -13,9 +13,9 @@ import Achievements from "./pages/Achievements";
 
 function App() {
   return (
-    <div className=" min-w-screen min-h-screen bg-gray-100 text-gray-900 flex flex-col">
+    <div className=" min-w-full min-h-screen bg-gray-100 text-gray-900 flex flex-col">
       <Navbar />
-      <main className="w-full pt-24 px-6 flex-grow">
+      <main className="w-[90%] overflow-x-hidden mx-auto pt-24 px-6 flex-grow">
         {/* <Routes> */}
         {/* <Route path="" element={<About />} />
           <Route path="education" element={<Education />} />
@@ -28,9 +28,13 @@ function App() {
         {/* <Route path="*" element={<Navigate to="/" />} /> */}
         {/* </Routes> */}
         <section id="about" className="scroll-mt-24"><About /></section>
+        <div className="my-18 h-0.5 bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         <section id="experience" className="scroll-mt-24"><Experience /></section>
+        <div className="my-18 h-0.5 bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         <section id="skills" className="scroll-mt-24"><Skills /></section>
+        <div className="my-18 h-0.5 bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         <section id="education" className="scroll-mt-24"><Education /></section>
+        <div className="my-18 h-0.5 bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         <section id="achievements" className="scroll-mt-24"><Achievements /></section>
       </main>
       <Footer />
