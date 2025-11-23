@@ -3,7 +3,7 @@ import Headshot from "../assets/images/headshot2.png";
 
 const About = () => {
   return (
-    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between pt-20 px-10 pb-10">
+    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between pt-15 px-10 pb-10">
       {/* Left Side - Text Content */}
       <div className="md:w-2/3 text-left">
         <h2 className="text-4xl font-bold text-sky-900"> I am a Full-Stack Developer</h2>
