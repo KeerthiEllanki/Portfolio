@@ -8,10 +8,11 @@ const experiences = [
     duration: "June 2025 – Present",
     description: "Contributed to design and development of the Luckie 2.0 corporate website, building responsive and interactive features along with AI-powered chatbot that improved client engagement and streamlined content management workflows. Worked for a responsive microsite for Rivian to highlight its investment initiatives and strengthen community presence.",
     responsibilities: [
-      "Redesigned and developed the Luckie 2.0 corporate website using WordPress (Elementor) CMS, streamlining workflows for the content management team and reducing content update time by 35%.",
-      "Built responsive, interactive web features with JavaScript, HTML, CSS, and PHP, optimizing site performance and delivering a smooth experience for 20,000+ monthly users across devices.",
-      "Built a custom AI chatbot for the landing page leveraging HubSpot APIs and JavaScript, automating 40% of initial client queries and improving lead capture efficiency.",
-      "Developed a responsive Squarespace microsite for Rivian using custom HTML, CSS, and JavaScript, showcasing Rivian’s $5B Georgia investment, job creation, and sustainability efforts, strengthening the brand’s community presence & stakeholder engagement."
+      "Architected Luckie 2.0 corporate website on WordPress (Elementor) CMS with custom React, JavaScript and PHP components, streamlining workflows for content management team and cutting content update time by 23%.",
+      "Engineered a gamified learning platform with React, Python FastAPI, SQLAlchemy, and MSSQL Server, featuring 30+ multi-domain quizzes with badge achievements and Slack integration, achieving 95% employee participation within 2 months.",
+      "Automated client engagement with an AI-powered chatbot leveraging HubSpot APIs & JavaScript, handling 42% of initial queries and freeing up 25 + hours / week of manual customer support time.",
+      "Published 50+ SEO-optimized recipe pages for Spice World in WordPress, implementing structured data markup, increasing organic search rankings and drove 18 % growth in site traffic over 3 months.",
+      "Designed Rivian's EV Impact platform on Squarespace with custom JavaScript and Mapbox integration, delivering an interactive charging station locator with advanced filtering and geolocation capabilities."
     ],
   },
   {
@@ -20,12 +21,12 @@ const experiences = [
     duration: "February 2025 – May 2025",
     description: "Contributing to the development of a medical credentialing SaaS platform at BilliMD, aimed at streamlining provider onboarding and compliance. Focused on building performant, accessible, and responsive UIs that support scalable credentialing workflows and enhance user experience across the healthcare ecosystem.",
     responsibilities: [
-      "Engineered and launched 10 + dynamic marketing pages using React, TypeScript & Tailwind CSS for SaaS platform used for medical credentialing, improving session duration by 16% and enhancing content accessibility.",
-      "Created and consumed backend APIs using Axios, with RxJS Observables on the frontend to manage reactive streams and dynamic UI updates, streamlining provider, FAQ sections and boosting SEO relevance.",
-      "Enhanced front - end performance with lazy loading, Redux for global state management, and Context API for scoped states, alongside modular code splitting, cutting page load times by 44%.",
-      "Built accessible, reusable UI components using Material UI and Framer Motion, reducing dev time by 28% while delivering a modern and WCAG - compliant user experience.",
+      "Built 10+ dynamic marketing pages with React, TypeScript & Tailwind CSS for a healthcare credentialing SaaS platform, increasing average session duration by 16% and enhancing content accessibility.",
+      "Connected backend APIs via Axios with RxJS Observables, powering real-time updates across provider directories and FAQ sections.",
+      "Accelerated front-end performance with lazy loading, Redux for global state management, and Context API for scoped states, alongside modular code splitting, slashing page load times by 44%.",
+      "Composed a library of 10+ accessible UI components with Material UI and Framer Motion, trimming dev time by 28% while maintaining a modern and WCAG - compliant user experience.",
+      "Architected asynchronous processing with RabbitMQ message queues for time-intensive tasks such as provider verification & notification workflows, eliminating delays in user - facing interactions.",
       "Partnered with designers via Figma & Storybook to deliver pixel - perfect, responsive UIs, reducing QA cycles & improving cross - team handoff.",
-      "Worked with asynchronous processing patterns leveraging RabbitMQ for of time - intensive tasks like provider verification & notification workflows, reducing delays in user - facing interactions.",
       "Deployed backend services on Kubernetes clusters to enable container orchestration, auto - scaling, and streamlined resource management across dev and staging environments."
     ],
   },
@@ -38,7 +39,6 @@ const experiences = [
       "Designed and implemented a browser-based code execution platform to automate grading of programming assignments, eliminating the need for local setup and improving grading efficiency for instructors.",
       "Delivered personalized tutoring and academic support in Data Structures, Algorithms, Python, and Java, helping over 200 students per semester improve understanding and achieve measurable academic gains.",
       "Created real-world coding exercises using interactive coding environments, integrating automated feedback and gamified learning elements to enhance problem-solving and industry readiness.",
-      "Collaborated with faculty to design lab materials and grading rubrics, ensuring alignment with course objectives and enhancing the overall learning experience.",
       "Supported TRIO SSS staff in efforts to enhance retention, progression, and graduation rates among first-generation, low - income, and disabled students through various administrative, recruitment, and engagement activities.",
       "Mentored students on career development by providing guidance on resume building, exploring internship opportunities, and discussing career paths, empowering them with tools for academic and professional success."
     ],
@@ -51,11 +51,11 @@ const experiences = [
     responsibilities: [
       "Developed and maintained 15+ scalable microservices using Java Spring Boot, for a retirement readiness platform, serving over 1M+ users.",
       "Designed and implemented RESTful APIs, focusing on structured error handling, XML/JSON serialization, and pagination logic, improving API integration efficiency.",
-      "Integrated PostgreSQL with microservices using Spring Data JPA and Hibernate, building efficient CRUD functionality and optimizing data access with custom queries and ORM-level performance tuning.",
-      "Integrated OAuth2.0 authorization across microservices, reducing unauthorized access attempts by ~30%.",
+      "Connected PostgreSQL with microservices using Spring Data JPA and Hibernate, building efficient CRUD functionality and optimizing data access with custom queries and ORM-level performance tuning.",
+      "Enforced OAuth2.0 authorization across microservices, preventing ~30% of unauthorized access attempts.",
       "Migrated synchronous REST-based inter-service communication to Kafka-based event streaming, reducing service latency by 16% and significantly improving scalability and fault tolerance under peak load.",
       "Conducted comprehensive tests using Junit for unit-level testing and Postman for API-level testing, reducing production bugs by half.",
-      "Collaborated on backend performance tuning using JMeter and AppDynamics, proactively identifying inefficiencies in service threads and memory usage to enhance throughput during peak load testing.",
+      "Performed backend performance tuning with Apache JMeter and AppDynamics, identifying inefficiencies in service threads and memory usage to boost throughput during peak load testing.",
       "Documented APIs using OpenAPI/Swagger, ensuring seamless integration and testing for internal consumer teams and reducing back-andforth for documentation clarity.",
       "Led a team of 6 junior developers, mentoring them on Java best practices; accelerating onboarding and improving code quality across deliverables."
     ],
@@ -71,13 +71,13 @@ const experiences = [
       "Leveraged Amazon Route 53 for intelligent traffic routing between regions, optimizing performance & reducing latency.",
       "Collaborated cross-functionally to deliver a secure document access service using S3, Lambda, API Gateway, and IAM, enabling time-restricted delivery of sensitive retirement plan data.",
       "Configured automated monitoring and alerting systems using EC2 Auto-Scaling, Cloud Watch, and Cloud Formation, reducing mean time to detect (MTTD) issues by 50%.",
-      "Built and optimized robust CI/CD pipelines by integrating Docker to containerize applications and using Atlassian suite (Bitbucket, Bamboo, Jira) with Git, automating deployment processes and shortening release cycles from 5 weeks to 3 weeks."
+      "Optimized robust CI/CD pipelines by integrating Docker to containerize applications and using Atlassian suite (Bitbucket, Bamboo, Jira) with Git, automating deployment processes and shortening release cycles from 5 weeks to 3 weeks."
     ],
   },
   {
     company: "Tech Mahindra",
-    role: "Full-Stack Software Engineer",
-    duration: "February 2021 - July 2021",
+    role: "Full-Stack Software Engineer Intern",
+    duration: "March 2021 - July 2021",
     description: "Contributed to the development of an internal employee self-service portal that streamlined HR workflows and improved operational efficiency. Delivered features that enhanced user experience, reduced manual workload, and enabled faster data access across departments. Played a key role in automating internal processes and resolving production issues, directly improving platform stability and overall system reliability in a high-visibility enterprise environment.",
     responsibilities: [
       "Developed 25+ Angular-based frontend components for employee self-service portal, streamlining workflows & reducing HR inquiries.",
@@ -99,7 +99,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="p-10 w-full">
-      <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-sky-800 via-purple-700 to-blue-600 text-transparent bg-clip-text inline-block">
+      <h2 className="text-4xl font-bold mb-16 text-sky-900 inline-block">
         EXPERIENCE
       </h2>
 
@@ -120,13 +120,14 @@ const Experience = () => {
               {/* Tab Button */}
               <button
                 onClick={() => toggle(index)}
-                className={`w-full text-left px-4 py-3 rounded-md transition-colors duration-300 ${selected === index
-                  ? "bg-blue-100 text-blue-800"
-                  : "bg-gray-100 hover:bg-gray-200"
+                className={`w-full text-left px-4 py-3 rounded-md border font-medium  transform-gpu transition-all duration-300 cursor-pointer east-out
+                ${selected === index
+                    ? "bg-sky-900 text-white border-sky-900 shadow-md hover:bg-white hover:text-sky-900 hover:shadow-lg hover:scale-103"
+                    : "bg-sky-900 text-white border-sky-900 hover:bg-white hover:text-sky-900 hover:shadow-lg hover:scale-103"
                   }`}
               >
-                <h3 className="text-2xl font-bold text-sky-900">{exp.role}</h3>
-                <h4 className="text-xl font-semibold text-sky-700">{exp.company}</h4>
+                <h3 className="text-2xl font-bold ">{exp.role}</h3>
+                <h4 className="text-xl font-semibold opacity-90">{exp.company}</h4>
               </button>
 
               {/* Description if selected */}

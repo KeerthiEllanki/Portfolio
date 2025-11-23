@@ -30,7 +30,7 @@ const achievements = [
 const Achievements = () => {
   return (
     <section id="achievements" className="py-10 px-10">
-      <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-sky-800 via-purple-700 to-blue-600 text-transparent bg-clip-text inline-block">ACHIEVEMENTS</h2>
+      <h2 className="text-4xl font-bold mb-16 text-sky-900 inline-block">ACHIEVEMENTS</h2>
 
       <ul className="space-y-6">
         {achievements.map((item, index) => (

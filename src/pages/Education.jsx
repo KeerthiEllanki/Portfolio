@@ -37,7 +37,7 @@ const education = [
 const Education = () => {
   return (
     <section id="education" className="p-10 w-full">
-      <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-sky-800 via-purple-700 to-blue-600 text-transparent bg-clip-text inline-block">EDUCATION</h2>
+      <h2 className="text-4xl font-bold mb-16 text-sky-900 inline-block">EDUCATION</h2>
 
       <div className="relative">
         {/* Vertical Line */}

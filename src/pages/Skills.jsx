@@ -13,7 +13,7 @@ import AzureSQl from "../assets/images/azure-sql.png";
 const Skills = () => {
   return (
     <section id="skills" className="px-10 py-10">
-      <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-sky-800 via-purple-700 to-blue-600 text-transparent bg-clip-text inline-block">SKILLS</h2>
+      <h2 className="text-4xl font-bold mb-16 text-sky-900 inline-block">SKILLS</h2>
 
       <div className="grid md:grid-cols-4 gap-8 text-center">
         {/* Programming Languages */}

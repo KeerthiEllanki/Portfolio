@@ -3,24 +3,31 @@ import Headshot from "../assets/images/headshot2.png";
 
 const About = () => {
   return (
-    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between pt-20 px-10 pb-10">
+    <section id="about" className="w-full flex flex-col md:flex-row items-center justify-between pt-5 px-10 pb-10">
       {/* Left Side - Text Content */}
       <div className="md:w-2/3 text-left">
-        <h2 className="text-4xl font-bold text-sky-900">I'm an End-to-End Developer</h2>
+        <h2 className="text-4xl font-bold text-sky-900"> I am a Full-Stack Developer</h2>
+        <h2 className="text-2xl font-bold text-sky-900 mt-2">Specialized in Cloud, DevOps & Distributed Systems</h2>
+        <h3 className="text-xl font-bold text-sky-900 mt-6">React · Angular · Spring Boot · FastAPI · Python · Java · AWS · CI/CD</h3>
 
         <p className="mt-4 text-gray-700 leading-relaxed">
-          Hey there! 👋 I'm a full-stack software developer with cloud expertise and passionate about building scalable, user-friendly solutions that make a real impact. From crafting seamless
-          digital experiences to optimizing backend systems for efficiency, I love turning ideas into high-performing applications.
+          I’m a full-stack software developer with strong experience in building scalable, cloud-native applications across the entire development lifecycle.
+          I work across frontend, backend, and DevOps—creating intuitive user interfaces, designing robust APIs, and deploying secure systems on AWS with CI/CD best practices.
         </p>
 
         <p className="mt-2 text-gray-700">
-          When I'm not glued to my screen, you'll probably find me with my nose in a book.
-          Beyond code, I’m all about creativity—whether it’s arts and crafts ✍️🎨, photography 📸, or experimenting in the kitchen 🔪. Keeps life interesting!
+          My engineering approach focuses on clean architecture, performance, and developer experience.
+          I enjoy solving complex problems, optimizing workflows, and delivering products that are both user-centric and technically sound.
+        </p>
+
+        <p className="mt-2 text-gray-700">
+          Outside of tech, I’m passionate about reading 📚, photography 📸, and creative projects like arts & crafts ✍️🎨, and experimenting with new recipes in the kitchen.
+          These help me stay grounded and keep my creativity flowing.
         </p>
 
         <p className="mt-2 text-gray-700">
           Always up for a good tech chat, brainstorming creative ideas, or learning something new. Let’s connect!<br />
-          Mail me at 'keerthireddyellanki303@gmail.com' or call me at '+1(470)-929-7757'
+          Feel free to reach out at <strong>keerthireddyellanki303@gmail.com</strong>.
         </p>
 
         {/* Strengths with Dots */}
@@ -57,7 +64,7 @@ const About = () => {
 
           {/* GitHub Button */}
           <a
-            href="https://github.com/KeerthiEllanki/" // Replace with actual GitHub link
+            href="https://github.com/KeerthiEllanki/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-16 h-16 p-2 bg-sky-900 rounded-full hover:bg-sky-200 transition duration-300 shadow-lg"
